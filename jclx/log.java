@@ -7,5 +7,6 @@ public class log {
 		System.out.println("2017-1-14 20:18:09  完成basic02  01字串");
 		System.out.println("2017-1-14 20:56:10  完成basic03  字母图形");
 		System.out.println("2017-1-14 21:27:56  完成basic04  数列特征");
+		System.out.println("2017-1-15 10:53:44  完成basic05  查找整数");
 	}
 }
