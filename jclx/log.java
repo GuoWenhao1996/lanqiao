@@ -14,6 +14,6 @@ public class log {
 		System.out.println("2017-1-15 11:44:54  完成basic09  特殊回文数");
 		System.out.println("2017-1-15 14:30:38  完成basic10  十进制转十六进制");
 		System.out.println("2017-1-15 15:14:23  完成basic11  十六进制转十进制");
-		System.out.println("2017-1-15 15:24:22  完成basic12  十六进制转八进制");
+		System.out.println("2017-1-16 13:30:57  完成basic12  十六进制转八进制（多个版本）");
 	}
 }
