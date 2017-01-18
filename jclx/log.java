@@ -18,5 +18,6 @@ public class log {
 		System.out.println("2017-1-16 21:50:25  完成basic28  Huffuman树");
 		System.out.println("2017-1-18 20:36:24  完成basic13  数列排序");
 		System.out.println("2017-1-18 20:44:09  完成basic14  时间转换");
+		System.out.println("2017-1-18 22:04:03  完成basic15  字符串对比");
 	}
 }
