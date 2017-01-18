@@ -4,31 +4,26 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		int count = 0;
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int m = sc.nextInt();
-		int[][] coins = new int[n][m];
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				coins[i][j] = 1;// 1代表正面，-1代表反面
-				System.out.print(coins[i][j]);
+		n++;// 行+1
+		m++;// 列+1
+		boolean[][] coins = new boolean[n][m];
+		for (int i = 1; i < n; i++)
+			for (int j = 1; j < m; j++) {
+				Qcoin(coins, i, j, n, m);
+				if (coins[i][j] == true)
+					count++;
 			}
-			System.out.println();
-		}
-
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				Qcoin(coins, i + 1, j + 1, n, m);
-				System.out.print(coins[i][j]);
-			}
-			System.out.println();
-		}
+		System.out.println(count);
 	}
 
-	private static void Qcoin(int[][] array, int x, int y, int n, int m) {
-		for (int i = 0; i * x < n; i++) {
-			for (int j = 0; j * y < m; j++) {
-				array[i * x][j * y] = -array[i * x][j * y];
+	private static void Qcoin(boolean[][] array, int x, int y, int n, int m) {
+		for (int i = 1; i * x < n; i++) {
+			for (int j = 1; j * y < m; j++) {
+				array[i * x][j * y] = !array[i * x][j * y];
 			}
 		}
 	}
