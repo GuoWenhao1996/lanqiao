@@ -12,9 +12,11 @@ public class log {
 		System.out.println("2017-1-15 11:17:45  完成basic07  特殊的数字");
 		System.out.println("2017-1-15 11:33:21  完成basic08  回文数");
 		System.out.println("2017-1-15 11:44:54  完成basic09  特殊回文数");
-		System.out.println("2017-1-15 14:30:38  完成basic10  十进制转十六进制");
-		System.out.println("2017-1-15 15:14:23  完成basic11  十六进制转十进制");
+		System.out.println("2017-1-15 14:30:38  完成basic10  十进制转十六进制（多个版本）");
+		System.out.println("2017-1-15 15:14:23  完成basic11  十六进制转十进制（多个版本）");
 		System.out.println("2017-1-16 13:30:57  完成basic12  十六进制转八进制（多个版本）");
 		System.out.println("2017-1-16 21:50:25  完成basic28  Huffuman树");
+		System.out.println("2017-1-18 20:36:24  完成basic13  数列排序");
+		System.out.println("2017-1-18 20:44:09  完成basic14  时间转换");
 	}
 }
