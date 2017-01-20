@@ -20,5 +20,6 @@ public class log {
 		System.out.println("2017-1-18 20:44:09  完成basic14  时间转换");
 		System.out.println("2017-1-18 22:04:03  完成basic15  字符串对比");
 		System.out.println("2017-1-19 16:45:44  完成basic16  分解质因数");
+		System.out.println("2017-1-20 08:31:58  完成basic17  矩阵乘法");
 	}
 }
