@@ -1,9 +1,11 @@
 package com.gwh.jclx.basic18;
 
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		double S = 0;
 		Scanner sc = new Scanner(System.in);
 		double[] d11 = new double[2];
 		double[] d12 = new double[2];
@@ -45,18 +47,44 @@ public class Main {
 			d12 = d22;
 			d22 = d00;
 		}
-		System.out.println(d11[0] + "," + d11[1]);
-		System.out.println(d12[0] + "," + d12[1]);
-		System.out.println(d21[0] + "," + d21[1]);
-		System.out.println(d22[0] + "," + d22[1]);
-
 		if (d11[0] <= d22[0] && d12[0] >= d21[0] && d11[1] <= d22[1] && d12[1] >= d21[1]) {
 			if (d22[1] >= d12[1]) {
-				if()
+				if (d11[1] <= d21[1]) {
+					if (d22[0] >= d12[0]) {
+						if (d11[0] <= d21[0]) {
+							S = (d12[1] - d21[1]) * (d12[0] - d21[0]);
+						} else {
+							S = (d12[1] - d21[1]) * (d12[0] - d11[0]);
+						}
+					} else {
+						S = (d12[1] - d21[1]) * (d22[0] - d11[0]);
+					}
+				} else {
+					if (d22[0] >= d12[0]) {
+						if (d11[0] <= d21[0]) {
+							S = (d12[1] - d11[1]) * (d12[0] - d21[0]);
+						} else {
+							S = (d12[1] - d11[1]) * (d12[0] - d11[0]);
+						}
+					} else {
+						S = (d12[1] - d11[1]) * (d22[0] - d11[0]);
+					}
+				}
 			} else {
-
+				if (d22[0] >= d12[0]) {
+					if (d11[0] <= d21[0]) {
+						S = (d22[1] - d11[1]) * (d12[0] - d21[0]);
+					} else {
+						S = (d22[1] - d11[1]) * (d12[0] - d11[0]);
+					}
+				} else {
+					S = (d22[1] - d11[1]) * (d22[0] - d11[0]);
+				}
 			}
 		} else
-			System.out.println("0.00");
+			S = 0.00;
+		BigDecimal bd = new BigDecimal(S);
+		bd = bd.setScale(2, BigDecimal.ROUND_HALF_UP);
+		System.out.println(bd);
 	}
 }
