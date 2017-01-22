@@ -22,5 +22,6 @@ public class log {
 		System.out.println("2017-1-19 16:45:44  完成basic16  分解质因数");
 		System.out.println("2017-1-20 08:31:58  完成basic17  矩阵乘法");
 		System.out.println("2017-1-21 11:09:18  完成basic18  矩形面积交");
+		System.out.println("2017-1-22 11:43:44  完成basic19  完美的代价");
 	}
 }
