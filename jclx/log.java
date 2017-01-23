@@ -23,5 +23,6 @@ public class log {
 		System.out.println("2017-1-20 08:31:58  完成basic17  矩阵乘法");
 		System.out.println("2017-1-21 11:09:18  完成basic18  矩形面积交");
 		System.out.println("2017-1-22 11:43:44  完成basic19  完美的代价");
+		System.out.println("2017-1-23 17:59:06  完成basic24  龟兔赛跑预测");
 	}
 }
