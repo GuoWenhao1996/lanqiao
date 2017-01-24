@@ -9,5 +9,6 @@ public class log {
 		System.out.println("2017-1-23 19:23:18  完成adv223  8-1因式分解");
 		System.out.println("2017-1-23 19:29:09  完成adv178  简单加法");
 		System.out.println("2017-1-23 21:11:24  完成adv172  身份证排序");
+		System.out.println("2017-1-24 20:22:56  完成adv172  身份证排序(c++参考代码)");
 	}
 }
