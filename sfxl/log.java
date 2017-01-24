@@ -9,5 +9,6 @@ public class log {
 		System.out.println("2017-1-21 17:05:14  完成algo094  新生舞会");
 		System.out.println("2017-1-23 19:58:39  完成algo105  黑色星期五");
 		System.out.println("2017-1-24 19:30:59  完成algo025  Car的旅行路线(c++版本参考代码)");
+		System.out.println("2017-1-24 19:59:36  完成algo005  最短路(参考代码)");
 	}
 }
