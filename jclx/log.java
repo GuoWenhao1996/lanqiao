@@ -25,5 +25,6 @@ public class log {
 		System.out.println("2017-1-22 11:43:44  完成basic19  完美的代价");
 		System.out.println("2017-1-23 17:59:06  完成basic24  龟兔赛跑预测");
 		System.out.println("2017-1-25 21:18:24  完成basic20  数的读法");
+		System.out.println("2017-1-25 22:17:22  完成basic21  Sine之舞");
 	}
 }
