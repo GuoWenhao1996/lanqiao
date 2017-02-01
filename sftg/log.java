@@ -10,5 +10,7 @@ public class log {
 		System.out.println("2017-1-23 19:29:09  完成adv178  简单加法");
 		System.out.println("2017-1-23 21:11:24  完成adv172  身份证排序");
 		System.out.println("2017-1-24 20:22:56  完成adv172  身份证排序(c++参考代码)");
+		System.out.println("2017-2-1  17:23:39  完成adv226  9-3摩尔斯电码");
+		System.out.println("2017-2-1  18:31:38  完成adv181  质因数2");
 	}
 }
