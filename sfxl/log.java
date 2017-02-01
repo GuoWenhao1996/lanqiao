@@ -11,5 +11,6 @@ public class log {
 		System.out.println("2017-1-24 19:30:59  完成algo025  Car的旅行路线(c++版本参考代码)");
 		System.out.println("2017-1-24 19:59:36  完成algo005  最短路(参考代码)");
 		System.out.println("2017-1-24 20:12:37  完成algo006  安慰奶牛(参考代码)");
+		System.out.println("2017-2-1 16:55:39  完成algo045  调和数列问题");
 	}
 }
