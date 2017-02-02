@@ -13,5 +13,6 @@ public class log {
 		System.out.println("2017-1-24 20:12:37  完成algo006  安慰奶牛(参考代码)");
 		System.out.println("2017-2-1  16:55:39  完成algo045  调和数列问题");
 		System.out.println("2017-2-1  18:05:49  完成algo095  2的次幂表示");
+		System.out.println("2017-2-2  22:13:02  完成algo054  简单加法(基本型)");
 	}
 }
