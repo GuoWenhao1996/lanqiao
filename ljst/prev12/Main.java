@@ -1,6 +1,7 @@
-package com.gwh.sftg.adv001;
+package com.gwh.ljst.prev12;
 
 public class Main {
 	public static void main(String[] args) {
+
 	}
 }
