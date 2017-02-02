@@ -15,5 +15,6 @@ public class log {
 		System.out.println("2017-2-2  19:12:20  完成adv217  c++_ch04_02_修正版");
 		System.out.println("2017-2-2  20:11:27  完成adv177  理财计划");
 		System.out.println("2017-2-2  20:45:50  完成adv171  身份证号码升级");
+		System.out.println("2017-2-2  21:02:16  完成adv079  时间转换");
 	}
 }
