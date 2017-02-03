@@ -17,5 +17,6 @@ public class log {
 		System.out.println("2017-2-2  20:45:50  完成adv171  身份证号码升级");
 		System.out.println("2017-2-2  21:02:16  完成adv079  时间转换");
 		System.out.println("2017-2-2  22:40:03  完成adv154  质数的后代");
+		System.out.println("2017-2-3  21:37:41  完成adv206  不大的数(内存超限？？？)");
 	}
 }
