@@ -18,5 +18,6 @@ public class log {
 		System.out.println("2017-2-2  21:02:16  完成adv079  时间转换");
 		System.out.println("2017-2-2  22:40:03  完成adv154  质数的后代");
 		System.out.println("2017-2-3  21:37:41  完成adv206  不大的数(内存超限？？？)");
+		System.out.println("2017-2-5  10:36:12  完成adv206  不大的数(c++参考代码。。。。。)");
 	}
 }
