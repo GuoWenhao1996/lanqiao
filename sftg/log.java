@@ -20,5 +20,6 @@ public class log {
 		System.out.println("2017-2-3  21:37:41  完成adv206  不大的数(内存超限？？？)");
 		System.out.println("2017-2-5  10:36:12  完成adv206  不大的数(c++参考代码。。。。。)");
 		System.out.println("2017-2-5  10:58:08  完成adv015  最大乘积(参考代码)");
+		System.out.println("2017-2-5  11:06:30  完成adv144  01背包(参考代码)");
 	}
 }
