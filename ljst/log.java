@@ -8,5 +8,7 @@ public class log {
 		System.out.println("2017-1-24 19:39:35  完成prev23  数字游戏(c++版本参考代码)");
 		System.out.println("2017-1-24 20:17:53  完成prev34  矩阵翻硬币(参考代码)");
 		System.out.println("2017-2-5  10:39:59  完成prev08  买不到的数目(参考代码)");
+		System.out.println("2017-2-5  10:47:30  完成prev02  打印十字图(参考代码)");
+		System.out.println("2017-2-5  11:01:49  完成prev11  横向打印二叉树(参考代码)");
 	}
 }
