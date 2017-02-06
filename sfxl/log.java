@@ -14,5 +14,6 @@ public class log {
 		System.out.println("2017-2-1  16:55:39  完成algo045  调和数列问题");
 		System.out.println("2017-2-1  18:05:49  完成algo095  2的次幂表示");
 		System.out.println("2017-2-2  22:13:02  完成algo054  简单加法(基本型)");
+		System.out.println("2017-2-6  19:50:54  完成algo046  Hanoi问题");
 	}
 }
