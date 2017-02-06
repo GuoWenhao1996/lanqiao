@@ -23,5 +23,6 @@ public class log {
 		System.out.println("2017-2-5  11:06:30  完成adv144  01背包(参考代码)");
 		System.out.println("2017-2-6  19:28:49  完成adv183  分苹果");
 		System.out.println("2017-2-6  19:38:04  完成adv076  GDP计算");
+		System.out.println("2017-2-6  20:42:40  完成adv140  开灯游戏");
 	}
 }
