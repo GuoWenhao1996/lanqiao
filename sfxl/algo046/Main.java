@@ -7,7 +7,11 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int M = sc.nextInt();
-		int n = N / M + 1;
+		int n = 0;
+		if (N % M == 0)
+			n = N / M;
+		else
+			n = N / M + 1;
 		System.out.println((int) Math.pow(2, n) - 1);
 	}
 }
