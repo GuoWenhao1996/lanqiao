@@ -25,5 +25,6 @@ public class log {
 		System.out.println("2017-2-6  19:38:04  完成adv076  GDP计算");
 		System.out.println("2017-2-6  20:42:40  完成adv140  开灯游戏");
 		System.out.println("2017-2-7  18:44:37  完成adv183  分苹果c++版(仍然仅得50分)");
+		System.out.println("2017-2-8  21:57:14  完成adv183  分苹果c++版(c++参考代码)");
 	}
 }
