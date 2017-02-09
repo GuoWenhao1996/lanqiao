@@ -27,5 +27,6 @@ public class log {
 		System.out.println("2017-2-7  18:44:37  完成adv183  分苹果c++版(仍然仅得50分)");
 		System.out.println("2017-2-8  21:57:14  完成adv183  分苹果c++版(c++参考代码)");
 		System.out.println("2017-2-8  22:03:43  完成adv169  士兵排队问题(c++参考代码)");
+		System.out.println("2017-2-9  20:34:17  完成adv132  笨小猴");
 	}
 }
