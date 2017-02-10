@@ -31,5 +31,6 @@ public class log {
 		System.out.println("2017-2-9  20:55:56  完成adv074  计算整数因子");
 		System.out.println("2017-2-9  22:59:31  完成adv133  彩票(仅得70分)");
 		System.out.println("2017-2-10 00:24:51  完成adv133  彩票改为多线程版本，但仍然有误");
+		System.out.println("2017-2-10 12:15:05  完成adv161  题目 2 密码锁(仅得20分)");
 	}
 }
