@@ -12,5 +12,6 @@ public class log {
 		System.out.println("2017-2-5  11:01:49  完成prev11  横向打印二叉树(参考代码)");
 		System.out.println("2017-2-5  11:12:27  完成prev12  危险系数(参考代码)");
 		System.out.println("2017-2-6  21:30:42  完成prev06  翻硬币");
+		System.out.println("2017-2-11 12:49:21  完成prev03  带分数(参考代码)");
 	}
 }
