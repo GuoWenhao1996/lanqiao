@@ -34,5 +34,6 @@ public class log {
 		System.out.println("2017-2-10 12:15:05  完成adv161  题目 2 密码锁(仅得20分)");
 		System.out.println("2017-2-11 12:31:04  完成adv133  彩票(参考代码)");
 		System.out.println("2017-2-11 12:44:46  完成adv161  题目 2 密码锁(参考代码)");
+		System.out.println("2017-2-13 20:53:18  完成adv021  多项式输出");
 	}
 }
