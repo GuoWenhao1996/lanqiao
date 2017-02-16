@@ -21,9 +21,9 @@ public class Main {
 
 	private static int upp(int[] from, int i, int step) {
 		if (from[i] == 0) {
-			return ++step;
+			return step;
 		} else {
-			return upp(from, from[from[i] - 1], ++step);
+			return upp(from, from[i] - 1, ++step);
 		}
 	}
 }
