@@ -18,5 +18,6 @@ public class log {
 		System.out.println("2017-2-7  11:13:13  完成algo046  Hanoi问题(完成)");
 		System.out.println("2017-2-9  22:10:50  完成algo038  接水问题");
 		System.out.println("2017-2-13 20:18:14  完成algo150  6-1 递归求二项式系数值");
+		System.out.println("2017-2-16 11:43:57  完成algo027  FBI树");
 	}
 }
