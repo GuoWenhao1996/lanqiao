@@ -38,5 +38,6 @@ public class log {
 		System.out.println("2017-2-15 22:02:31  完成adv126  扫雷");
 		System.out.println("2017-2-16 00:15:08  完成adv156  分分钟的碎碎念(算法有问题仅得40分)");
 		System.out.println("2017-2-16 10:07:35  完成adv156  分分钟的碎碎念");
+		System.out.println("2017-2-18 16:33:50  完成adv083  寻找三位数");
 	}
 }
