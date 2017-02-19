@@ -14,5 +14,6 @@ public class log {
 		System.out.println("2017-2-6  21:30:42  完成prev06  翻硬币");
 		System.out.println("2017-2-11 12:49:21  完成prev03  带分数(参考代码)");
 		System.out.println("2017-2-16 11:39:50  完成prev10  幸运数(参考代码)");
+		System.out.println("2017-2-19 17:38:52  完成prev04  剪格子(参考代码)");
 	}
 }
