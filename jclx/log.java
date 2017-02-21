@@ -27,6 +27,7 @@ public class log {
 		System.out.println("2017-1-25 21:18:24  完成basic20  数的读法");
 		System.out.println("2017-1-25 22:17:22  完成basic21  Sine之舞");
 		System.out.println("2017-1-26 10:44:53  完成basic22  FJ的字符串");
-		System.out.println("2017-1-26 10:44:53  完成basic23  回形取数(算法有误)");
+		System.out.println("2017-1-26 10:44:53  完成basic25  回形取数(算法有误)");
+		System.out.println("2017-2-21 13:22:05  完成basic23  芯片测试");
 	}
 }

@@ -1,59 +1,24 @@
 package com.gwh.jclx.basic23;
 
-import java.util.Scanner;
+import java.io.*;
 
 public class Main {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int m = sc.nextInt();
-		int n = sc.nextInt();
-		int[][] num = new int[m][n];
-		for (int i = 0; i < m; i++)
-			for (int j = 0; j < n; j++)
-				num[i][j] = sc.nextInt();
-		int indexi = 0;
-		int indexj = 0;
-		int m0 = -1;
-		int n0 = -1;
-		int fangxiang = 1;
-		while (true) {
-			if (indexi > m0 && indexj > n0 && indexi < m && indexj < n)
-				System.out.print(num[indexi][indexj] + " ");
-			else
-				break;
-			if (fangxiang == 1) {
-				indexi++;
-				if (indexi == m) {
-					indexi--;
-					indexj++;
-					fangxiang++;
-					m--;
-				}
-			} else if (fangxiang == 2) {
-				indexj++;
-				if (indexj == n) {
-					indexj--;
-					indexi--;
-					fangxiang++;
-					n--;
-				}
-			} else if (fangxiang == 3) {
-				indexi--;
-				if (indexi == m0) {
-					indexi++;
-					indexj--;
-					fangxiang++;
-					m0++;
-				}
-			} else if (fangxiang == 4) {
-				indexj--;
-				if (indexj == n0) {
-					indexj++;
-					indexi++;
-					fangxiang = 1;
-					n0++;
-				}
+	public static void main(String[] args) throws Exception {
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		int n = Integer.parseInt(bf.readLine());
+		int a[][] = new int[n][n];
+		int b[] = new int[n * n];
+		int i = 0, j = 0;
+		for (i = 0; i < n; i++) {
+			String s[] = bf.readLine().split(" ");
+			for (j = 0; j < n; j++) {
+				a[i][j] = Integer.parseInt(s[j]);
+				if (a[i][j] == 0)
+					b[j] = b[j] + 1;
 			}
 		}
+		for (i = 0; i < n; i++)
+			if (b[i] <= n / 2)
+				System.out.print(i + 1 + " ");
 	}
 }
