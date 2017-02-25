@@ -21,5 +21,6 @@ public class log {
 		System.out.println("2017-2-16 11:43:57  完成algo027  FBI树");
 		System.out.println("2017-2-18 15:34:05  完成algo091  Anagrams问题");
 		System.out.println("2017-2-18 15:51:18  完成algo011  瓷砖铺放");
+		System.out.println("2017-2-24 17:22:59  完成algo083  阶乘");
 	}
 }
