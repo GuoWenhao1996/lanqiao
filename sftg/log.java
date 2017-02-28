@@ -41,5 +41,6 @@ public class log {
 		System.out.println("2017-2-18 16:33:50  完成adv083  寻找三位数");
 		System.out.println("2017-2-18 16:49:30  完成adv131  选择排序");
 		System.out.println("2017-2-22 19:39:51  完成adv012  计算时间(运行超时)");
+		System.out.println("2017-2-28 22:06:23  完成adv012  计算时间(c++版本)");
 	}
 }
