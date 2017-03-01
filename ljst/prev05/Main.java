@@ -52,7 +52,7 @@ public class Main {
 				duoyu = allnum[i];
 				duoyubool = false;
 			}
-			if (quebool && allnum[i] + 1 != allnum[i + 1]) {
+			if (quebool && allnum[i] + 1 != allnum[i + 1] && allnum[i + 1] != allnum[i]) {
 				que = allnum[i] + 1;
 				quebool = false;
 			}

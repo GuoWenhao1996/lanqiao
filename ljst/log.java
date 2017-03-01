@@ -16,5 +16,6 @@ public class log {
 		System.out.println("2017-2-16 11:39:50  完成prev10  幸运数(参考代码)");
 		System.out.println("2017-2-19 17:38:52  完成prev04  剪格子(参考代码)");
 		System.out.println("2017-3-01 19:18:53  完成prev05  错误票据(仅得50分)");
+		System.out.println("2017-3-01 19:41:19  完成prev05  错误票据");
 	}
 }
