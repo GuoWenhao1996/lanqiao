@@ -18,5 +18,6 @@ public class log {
 		System.out.println("2017-3-01 19:18:53  完成prev05  错误票据(仅得50分)");
 		System.out.println("2017-3-01 19:41:19  完成prev05  错误票据");
 		System.out.println("2017-3-03 14:44:34  完成prev33  兰顿蚂蚁");
+		System.out.println("2017-3-03 14:55:33  完成prev01  核桃的数量");
 	}
 }
