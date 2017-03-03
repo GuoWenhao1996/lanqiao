@@ -29,5 +29,6 @@ public class log {
 		System.out.println("2017-1-26 10:44:53  完成basic22  FJ的字符串");
 		System.out.println("2017-1-26 10:44:53  完成basic25  回形取数(算法有误)");
 		System.out.println("2017-2-21 13:22:05  完成basic23  芯片测试");
+		System.out.println("2017-3-03 16:22:59  完成basic25  回形取数");
 	}
 }
