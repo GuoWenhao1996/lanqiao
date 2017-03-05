@@ -7,37 +7,36 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
 		int length1 = input.length();
-		int[] a = new int[length1];
+		int[] a = new int[101];
 		char[] achar = input.toCharArray();
 		input = sc.nextLine();
 		int length2 = input.length();
-		int[] b = new int[length2];
+		int[] b = new int[101];
 		char[] bchar = input.toCharArray();
 		for (int i = 0; i < length1; i++)
-			a[i] = achar[i] - 48;
+			a[101 - length1 + i] = achar[i] - 48;
 		for (int i = 0; i < length2; i++)
-			b[i] = bchar[i] - 48;
-		if (length1 > length2) {
-			for (int i = 0; i < length2; i++) {
-				a[length1 - i - 1] = a[length1 - i - 1] + b[length2 - i - 1];
-				if (a[length1 - i - 1] > 9) {
-					a[length1 - i - 2] += a[length1 - i - 1] / 10;
-					a[length1 - i - 1] = a[length1 - i - 1] % 10;
-				}
+			b[101 - length2 + i] = bchar[i] - 48;
+		for (int i = 100; i >= 0; i--) {
+			a[i] = a[i] + b[i];
+			if (a[i] > 9) {
+				a[i - 1] += a[i] / 10;
+				a[i] = a[i] % 10;
 			}
-			for (int i = 0; i < length1; i++) {
+		}
+		boolean start = false;
+		if (a[0] > 0)
+			start = true;
+		for (int i = 0; i < 101; i++) {
+			if (start)
 				System.out.print(a[i]);
-			}
-		} else {
-			for (int i = 0; i < length1; i++) {
-				b[length2 - i - 1] = b[length2 - i - 1] + a[length1 - i - 1];
-				if (b[length2 - i - 1] > 9) {
-					b[length2 - i - 2] += b[length2 - i - 1] / 10;
-					b[length2 - i - 1] = b[length2 - i - 1] % 10;
+			else {
+				if (a[i] == 0)
+					continue;
+				else {
+					start = true;
+					System.out.print(a[i]);
 				}
-			}
-			for (int i = 0; i < length2; i++) {
-				System.out.print(b[i]);
 			}
 		}
 	}

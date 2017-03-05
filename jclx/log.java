@@ -31,6 +31,7 @@ public class log {
 		System.out.println("2017-2-21 13:22:05  完成basic23  芯片测试");
 		System.out.println("2017-3-03 16:22:59  完成basic25  回形取数");
 		System.out.println("2017-3-04 22:44:38  完成basic26  报时助手");
-		System.out.println("2017-3-05 20:18:33  完成basic29  高精度加法");
+		System.out.println("2017-3-05 20:18:33  完成basic29  高精度加法(80分)");
+		System.out.println("2017-3-05 20:58:06  完成basic29  高精度加法");
 	}
 }
