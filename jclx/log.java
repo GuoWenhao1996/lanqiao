@@ -33,5 +33,6 @@ public class log {
 		System.out.println("2017-3-04 22:44:38  完成basic26  报时助手");
 		System.out.println("2017-3-05 20:18:33  完成basic29  高精度加法(80分)");
 		System.out.println("2017-3-05 20:58:06  完成basic29  高精度加法");
+		System.out.println("2017-3-05 22:41:47  完成basic30  阶乘计算");
 	}
 }
