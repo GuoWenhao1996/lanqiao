@@ -23,5 +23,6 @@ public class log {
 		System.out.println("2017-2-18 15:51:18  完成algo011  瓷砖铺放");
 		System.out.println("2017-2-24 17:22:59  完成algo083  阶乘");
 		System.out.println("2017-3-02 21:02:17  完成algo082  输出米字形");
+		System.out.println("2017-3-06 20:00:10  完成algo096  Hello World!");
 	}
 }
