@@ -26,5 +26,6 @@ public class log {
 		System.out.println("2017-3-06 20:00:10  完成algo096  Hello World!");
 		System.out.println("2017-3-07 21:07:28  完成algo009  摆动序列");
 		System.out.println("2017-3-07 22:55:17  完成algo010  集合运算");
+		System.out.println("2017-3-08 21:53:41  完成algo012  幂方分解");
 	}
 }
