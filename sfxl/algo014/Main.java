@@ -31,20 +31,20 @@ public class Main {
 							temp2 = (int) mchar[mchar.length - 1 - i] - 55;
 						else
 							temp2 = (int) mchar[mchar.length - 1 - i] - 48;
-						if (temp1 + temp2 > 15) {
-							result[result.length - 1 - i] += temp1 + temp2 - 16;
+						result[result.length - 1 - i] += temp1 + temp2;
+						if (result[result.length - 1 - i] > N - 1) {
 							result[result.length - 2 - i]++;
-						} else
-							result[result.length - 1 - i] += temp1 + temp2;
+							result[result.length - 1 - i] = result[result.length - 1 - i] - N;
+						}
 					}
 					M = "";
 					for (int i = 0; i < result.length; i++) {
-						if (result[0] == 0)
+						if (i == 0 && result[0] == 0)
 							continue;
 						else if (result[i] < 10)
 							M = M + result[i];
 						else
-							M = (char) (result[i] + 55) + M;
+							M = M + (char) (result[i] + 55);
 					}
 				} else {
 					int[] result = new int[M.length() + 1];
@@ -54,11 +54,11 @@ public class Main {
 						int temp2 = 0;
 						temp1 = (int) mchar[i] - 48;
 						temp2 = (int) mchar[mchar.length - 1 - i] - 48;
-						if (temp1 + temp2 > N - 1) {
-							result[result.length - 1 - i] += temp1 + temp2 - N;
+						result[result.length - 1 - i] += temp1 + temp2;
+						if (result[result.length - 1 - i] > N - 1) {
 							result[result.length - 2 - i]++;
-						} else
-							result[result.length - 1 - i] += temp1 + temp2;
+							result[result.length - 1 - i] = result[result.length - 1 - i] - N;
+						}
 					}
 					M = "";
 					for (int i = 0; i < result.length; i++) {
