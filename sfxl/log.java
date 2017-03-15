@@ -30,5 +30,6 @@ public class log {
 		System.out.println("2017-3-08 22:47:17  完成algo013  拦截导弹");
 		System.out.println("2017-3-15 13:56:53  完成algo014  回文数(25分)");
 		System.out.println("2017-3-15 14:23:54  完成algo014  回文数");
+		System.out.println("2017-3-15 19:54:31  完成algo015  旅行家的预算");
 	}
 }
