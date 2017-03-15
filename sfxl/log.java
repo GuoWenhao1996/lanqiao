@@ -28,5 +28,6 @@ public class log {
 		System.out.println("2017-3-07 22:55:17  完成algo010  集合运算");
 		System.out.println("2017-3-08 21:53:41  完成algo012  幂方分解");
 		System.out.println("2017-3-08 22:47:17  完成algo013  拦截导弹");
+		System.out.println("2017-3-15 13:56:53  完成algo014  回文数");
 	}
 }
