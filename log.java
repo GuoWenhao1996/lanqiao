@@ -7,5 +7,6 @@ public class log {
 		System.out.println("sfxl -> 算法训练");
 		System.out.println("sftg -> 算法提高");
 		System.out.println("ljst -> 历届试题");
+		System.out.println("mns1 -> 第一次模拟练习");
 	}
 }
