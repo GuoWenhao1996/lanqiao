@@ -9,6 +9,8 @@ public class log {
 		System.out.println("task5 -> 任务5 -> 还款计算");
 		System.out.println("task6 -> 任务6 -> 滑动解锁");
 		System.out.println("task7 -> 任务7 -> 风险度量");
-
+		System.out.println("2017-3-19 14:50:57  完成task1  算年龄");
+		System.out.println("2017-3-19 15:19:17  完成task2  猜算式");
+		System.out.println("2017-3-19 16:06:08  完成task3  排列序数(参考答案)");
 	}
 }
