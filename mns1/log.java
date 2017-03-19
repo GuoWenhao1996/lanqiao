@@ -12,5 +12,6 @@ public class log {
 		System.out.println("2017-3-19 14:50:57  完成task1  算年龄");
 		System.out.println("2017-3-19 15:19:17  完成task2  猜算式");
 		System.out.println("2017-3-19 16:06:08  完成task3  排列序数(参考答案)");
+		System.out.println("2017-3-19 16:20:58  完成task4  字符串比较");
 	}
 }
