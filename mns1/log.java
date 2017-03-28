@@ -14,5 +14,7 @@ public class log {
 		System.out.println("2017-3-19 16:06:08  完成task3  排列序数(参考答案)");
 		System.out.println("2017-3-19 16:20:58  完成task4  字符串比较");
 		System.out.println("2017-3-27 22:02:52  完成task5  还款计算");
+		System.out.println("2017-3-28 14:25:22  完成task6  滑动解锁(参考答案)");
+		System.out.println("2017-3-28 14:25:51  完成task7  还款计算(参考答案)");
 	}
 }
