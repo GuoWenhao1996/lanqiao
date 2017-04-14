@@ -31,5 +31,9 @@ public class log {
 		System.out.println("2017-3-15 13:56:53  完成algo014  回文数(25分)");
 		System.out.println("2017-3-15 14:23:54  完成algo014  回文数");
 		System.out.println("2017-3-15 19:54:31  完成algo015  旅行家的预算");
+		System.out.println("2017-4-14 19:34:49  完成algo017  乘积最大");
+		System.out.println("2017-4-14 20:41:43  完成algo016  进制转换(参考答案)");
+		System.out.println("2017-4-14 21:24:59  完成algo101  图形显示");
+		System.out.println("2017-4-14 21:33:12  完成algo002  最大最小公倍数");
 	}
 }
