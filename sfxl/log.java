@@ -36,5 +36,11 @@ public class log {
 		System.out.println("2017-4-14 21:24:59  完成algo101  图形显示");
 		System.out.println("2017-4-14 21:33:12  完成algo002  最大最小公倍数");
 		System.out.println("2017-4-15 23:08:31  完成algo003  K好数(错误、、)");
+		System.out.println("2017-4-16 12:57:13  完成algo003  K好数(参考代码)");
+		System.out.println("2017-4-16 13:09:16  完成algo004  结点选择(参考代码)");
+		System.out.println("2017-4-16 13:27:13  完成algo007  逆序对(c++参考代码)");
+		System.out.println("2017-4-16 13:35:34  完成algo008  操作格子(参考代码)");
+		System.out.println("2017-4-16 13:42:21  完成algo042  送分啦");
+		System.out.println("2017-4-16 13:46:05  完成algo048  关联矩阵");
 	}
 }
