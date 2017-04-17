@@ -1,4 +1,4 @@
-package com.gwh.sfxl;
+﻿package com.gwh.sfxl;
 
 public class log {
 	public static void main(String[] args) {
@@ -42,5 +42,7 @@ public class log {
 		System.out.println("2017-4-16 13:35:34  完成algo008  操作格子(参考代码)");
 		System.out.println("2017-4-16 13:42:21  完成algo042  送分啦");
 		System.out.println("2017-4-16 13:46:05  完成algo048  关联矩阵");
+		System.out.println("2017-4-17 22:40:24  完成algo018  单词接龙");
+		System.out.println("2017-4-17 23:27:21  完成algo019  方格取数");
 	}
 }
