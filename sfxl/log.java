@@ -44,5 +44,8 @@ public class log {
 		System.out.println("2017-4-16 13:46:05  完成algo048  关联矩阵");
 		System.out.println("2017-4-17 22:40:24  完成algo018  单词接龙");
 		System.out.println("2017-4-17 23:27:21  完成algo019  方格取数");
+		System.out.println("2017-4-18 23:10:46  完成algo020  求先序排列");
+		System.out.println("2017-4-18 23:19:48  完成algo021  装箱问题");
+		System.out.println("2017-4-18 23:26:05  完成algo022  数的划分");
 	}
 }
