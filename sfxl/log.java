@@ -47,5 +47,6 @@ public class log {
 		System.out.println("2017-4-18 23:10:46  完成algo020  求先序排列");
 		System.out.println("2017-4-18 23:19:48  完成algo021  装箱问题");
 		System.out.println("2017-4-18 23:26:05  完成algo022  数的划分");
+		System.out.println("2017-4-21 11:38:47  完成algo023  一元三次方程求解");
 	}
 }
