@@ -51,5 +51,6 @@ public class log {
 		System.out.println("2017-4-21 13:20:57  完成algo024  统计单词个数");
 		System.out.println("2017-4-21 19:06:10  完成algo026  麦森数");
 		System.out.println("2017-4-21 20:23:17  完成algo028  星际交流");
+		System.out.println("2017-4-22 13:40:33  完成algo029  校门外的树");
 	}
 }
