@@ -55,5 +55,6 @@ public class log {
 		System.out.println("2017-4-22 15:11:33  完成algo030  入学考试");
 		System.out.println("2017-4-22 15:28:23  完成algo031  开心的金明");
 		System.out.println("2017-4-26 16:59:42  完成algo032  JAM计数法");
+		System.out.println("2017-4-26 17:55:43  完成algo033  数列");
 	}
 }
