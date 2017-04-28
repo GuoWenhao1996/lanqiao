@@ -58,5 +58,6 @@ public class log {
 		System.out.println("2017-4-26 17:55:43  完成algo033  数列");
 		System.out.println("2017-4-27 10:46:03  完成algo034  纪念品分组");
 		System.out.println("2017-4-27 18:26:11  完成algo035  传球游戏");
+		System.out.println("2017-4-28 10:03:06  完成algo036  传纸条");
 	}
 }
