@@ -60,5 +60,6 @@ public class log {
 		System.out.println("2017-4-27 18:26:11  完成algo035  传球游戏");
 		System.out.println("2017-4-28 10:03:06  完成algo036  传纸条");
 		System.out.println("2017-4-28 11:28:44  完成algo037  Hankson的趣味题");
+		System.out.println("2017-4-29 11:38:34  完成algo039  数组排序去重");
 	}
 }
