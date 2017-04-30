@@ -64,5 +64,6 @@ public class log {
 		System.out.println("2017-4-29 11:42:32  完成algo043  A+B Problem");
 		System.out.println("2017-4-30 17:38:28  完成algo044  采油区域");
 		System.out.println("2017-4-30 17:43:47  完成algo045  会议中心");
+		System.out.println("2017-4-30 18:08:42  完成algo047  蜜蜂飞舞");
 	}
 }
