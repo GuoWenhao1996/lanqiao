@@ -65,5 +65,6 @@ public class log {
 		System.out.println("2017-4-30 17:38:28  完成algo044  采油区域");
 		System.out.println("2017-4-30 17:43:47  完成algo045  会议中心");
 		System.out.println("2017-4-30 18:08:42  完成algo047  蜜蜂飞舞");
+		System.out.println("2017-4-30 18:30:09  完成algo050  数组查找及替换");
 	}
 }
