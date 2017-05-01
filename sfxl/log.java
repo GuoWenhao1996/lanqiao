@@ -67,5 +67,6 @@ public class log {
 		System.out.println("2017-4-30 18:08:42  完成algo047  蜜蜂飞舞");
 		System.out.println("2017-4-30 18:30:09  完成algo050  数组查找及替换");
 		System.out.println("2017-5-01 08:53:24  完成algo052  排列问题");
+		System.out.println("2017-5-01 09:05:26  完成algo055  矩阵加法");
 	}
 }
