@@ -68,5 +68,9 @@ public class log {
 		System.out.println("2017-4-30 18:30:09  完成algo050  数组查找及替换");
 		System.out.println("2017-5-01 08:53:24  完成algo052  排列问题");
 		System.out.println("2017-5-01 09:05:26  完成algo055  矩阵加法");
+		System.out.println("2017-5-02 16:25:39  完成algo056  邮票（40分）");
+		System.out.println("2017-5-02 16:30:05  完成algo056  邮票（参考答案）");
+		System.out.println("2017-5-02 16:47:38  完成algo057  删除多余括号（参考答案）");
+		System.out.println("2017-5-02 16:55:48  完成algo058  字串逆序");
 	}
 }
