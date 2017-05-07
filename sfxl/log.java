@@ -72,5 +72,14 @@ public class log {
 		System.out.println("2017-5-02 16:30:05  完成algo056  邮票（参考答案）");
 		System.out.println("2017-5-02 16:47:38  完成algo057  删除多余括号（参考答案）");
 		System.out.println("2017-5-02 16:55:48  完成algo058  字串逆序");
+		System.out.println("2017-5-05 23:39:06  完成algo059  快速排序（超时20分）");
+		System.out.println("2017-5-07 14:05:48  完成algo060  矩阵乘方（错误20分）");
+		System.out.println("2017-5-07 14:11:47  完成algo060  矩阵乘方（错误20分）");
+		System.out.println("2017-5-07 14:26:35  完成algo060  矩阵乘方（错误30分）");
+		System.out.println("2017-5-07 14:27:52  完成algo060  矩阵乘方（参考答案）");
+		System.out.println("2017-5-07 14:34:28  完成algo061  奇偶判断");
+		System.out.println("2017-5-07 14:41:40  完成algo062  平方计算");
+		System.out.println("2017-5-07 14:47:25  完成algo063  乘法表");
+		System.out.println("2017-5-07 14:55:14  完成algo064  大小写判断");
 	}
 }
