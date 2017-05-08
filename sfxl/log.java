@@ -81,5 +81,6 @@ public class log {
 		System.out.println("2017-5-07 14:41:40  完成algo062  平方计算");
 		System.out.println("2017-5-07 14:47:25  完成algo063  乘法表");
 		System.out.println("2017-5-07 14:55:14  完成algo064  大小写判断");
+		System.out.println("2017-5-08 23:20:40  完成algo065  比赛安排");
 	}
 }
