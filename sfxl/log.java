@@ -84,5 +84,9 @@ public class log {
 		System.out.println("2017-5-08 23:20:40  完成algo065  比赛安排");
 		System.out.println("2017-5-13 15:46:07  完成algo066  字符串编辑");
 		System.out.println("2017-5-13 15:54:56  完成algo067  最大值与最小值的计算");
+		System.out.println("2017-5-13 16:22:27  完成algo068  判定数字");
+		System.out.println("2017-5-13 16:27:44  完成algo069  字符串逆序");
+		System.out.println("2017-5-13 16:37:12  完成algo070  最长字符串");
+		System.out.println("2017-5-13 16:54:59  完成algo071  比较字符串");
 	}
 }
