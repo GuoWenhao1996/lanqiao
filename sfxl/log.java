@@ -82,5 +82,7 @@ public class log {
 		System.out.println("2017-5-07 14:47:25  完成algo063  乘法表");
 		System.out.println("2017-5-07 14:55:14  完成algo064  大小写判断");
 		System.out.println("2017-5-08 23:20:40  完成algo065  比赛安排");
+		System.out.println("2017-5-13 15:46:07  完成algo066  字符串编辑");
+		System.out.println("2017-5-13 15:54:56  完成algo067  最大值与最小值的计算");
 	}
 }
