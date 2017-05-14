@@ -88,5 +88,7 @@ public class log {
 		System.out.println("2017-5-13 16:27:44  完成algo069  字符串逆序");
 		System.out.println("2017-5-13 16:37:12  完成algo070  最长字符串");
 		System.out.println("2017-5-13 16:54:59  完成algo071  比较字符串");
+		System.out.println("2017-5-14 21:34:53  完成algo072  成绩的等级输出");
+		System.out.println("2017-5-14 21:39:59  完成algo073  统计字符次数");
 	}
 }
