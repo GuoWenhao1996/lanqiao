@@ -91,5 +91,6 @@ public class log {
 		System.out.println("2017-5-14 21:34:53  完成algo072  成绩的等级输出");
 		System.out.println("2017-5-14 21:39:59  完成algo073  统计字符次数");
 		System.out.println("2017-5-14 21:45:09  完成algo074  连接字符串");
+		System.out.println("2017-5-15 22:06:50  完成algo076  十进制数转八进制数");
 	}
 }
