@@ -95,5 +95,6 @@ public class log {
 		System.out.println("2017-5-15 22:17:59  完成algo077  斜率计算");
 		System.out.println("2017-5-21 21:31:57  完成algo078  确定元音字母位置");
 		System.out.println("2017-5-21 21:36:19  完成algo080  整数平均值");
+		System.out.println("2017-5-22 22:54:39  完成algo085  进制转换");
 	}
 }
