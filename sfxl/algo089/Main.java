@@ -7,7 +7,11 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		String str0 = sc.nextLine();
-		char ch = str0.charAt(0);
+		char ch = ' ';
+		if (str0.length() == 0)
+			ch = '\n';
+		else
+			ch = str0.charAt(0);
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) == ch) {
 

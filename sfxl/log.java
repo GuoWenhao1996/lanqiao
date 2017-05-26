@@ -98,5 +98,6 @@ public class log {
 		System.out.println("2017-5-22 22:54:39  完成algo085  进制转换");
 		System.out.println("2017-5-24 11:33:22  完成algo088  字串统计");
 		System.out.println("2017-5-26 23:06:26  完成algo089  字符删除");
+		System.out.println("2017-5-26 23:22:46  完成algo093  反置数");
 	}
 }
